@@ -9,86 +9,80 @@
     <title>New Life Cosmetica</title>
 </head>
 <body>
-    <header class="headerIndex">
+  <header class="headerIndex">
 
-        <nav class="navIndex">
-            <ul class="ulIndex listStyle">
-                <li>
-                    <a href="../index.html">Home</a>
-                </li>
-                
-                <li>
-                    <a href="productoshogar.html">Productos Hogar</a>
-                </li>
-               
-                <li>
-                    <a href="productos.html">Productos Cuerpo</a>
-                </li>
-                <li>
-                    <a href="nosotras.html">Nosotras</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-                
+   
+    <nav class="navbar navbar-expand-lg navbar-light verde">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="productoshogar.html">Productos Hogar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="productos.html">Productos Cuerpo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="nosotras.html">Nosotras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contacto.html">Contacto</a>
+              </li>
             </ul>
-        </nav>
-     
-    </header>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success negro" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+</header>
     <main>
-        <h1>PRODUCTOS PARA EL CUERPO</h1>
-        <section class="productos">
-            <div>
 
-                <h2>Shampoo sólido</h2>
-                <figure>
-                    <img class="redimension" src="../img/1 Shampoo solido.jpg" alt="productos disponibles" id="imagen">
-                </figure>
-                <div>Cantidad</div>
-                <select name="cantidad" id="">
-                    <option value="uno">1</option>
-                    <option value="dos">2</option>
-                    <option value="tres">3</option>
-                </select> 
-                <input type="button" value="Comprar">
-               
-            </div>
-    
-            <div>
-                <h2> Bombas de baño</h2>
-                <figure>
-                    <img class="redimension" src="../img/2 bombas de baño.jpg" alt="productos disponibles" id="imagen">
-                </figure>
-                <div>Cantidad</div>
-                <select name="cantidad" id="">
-                    <option value="uno">1</option>
-                    <option value="dos">2</option>
-                    <option value="tres">3</option>
-                    
-                </select> 
-                <input type="button" value="Comprar">
-    
-            </div>
-    
-            <div>
-                
-                <h2>Oleo corporal</h2>
-                <figur>
-                    <img class="redimension" src="../img/3 oleo corporal.jpg" alt="productos disponibles" id="imagen">
-                </figure>
-                <div>Cantidad</div>
-                <select name="cantidad" id="">
-                    <option value="uno">1</option>
-                    <option value="dos">2</option>
-                    <option value="tres">3</option>
-                    
-                </select> 
-        
-                <input type="button" value="Comprar">
-                
-            </div>
-        </section>
+        <div class="row">
+           
+            <h1>PRODUCTOS PARA EL CUERPO</h1>
+            <div class="col lg-4">
+            <div id="carouselExampleIndicators" class="carousel slide tamanio position-relative top-0 start-50 translate-middle-x" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../img/1 Shampoo solido.jpg" class="d-block w-100" alt="..." width="620px" height="450px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/2 bombas de baño.jpg" class="d-block w-100" alt="..." width="620px" height="450px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/3 oleo corporal.jpg" class="d-block w-100" alt="..." width="620px" height="450px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/3 oleo corporal.jpg" class="d-block w-100" alt="..." width="620px" height="450px">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
 
+           </div>
+    
+
+        </div>
         
 
 

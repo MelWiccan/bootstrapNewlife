@@ -11,7 +11,17 @@
 
 }
 
-/*INDEX
+.negro{
+    color: black;
+}
+.negro:hover{
+    background-color: rgb(88, 129, 87);
+}
+.tamanio{
+    height: 30rem;
+    width: 30rem;
+}
+/*INDEX*/
 header{
     background-color: rgb(166, 128, 140);
     height: 100px;
@@ -90,7 +100,7 @@ footer{
   
 }
 
-/*SMARTPHONE
+/*SMARTPHONE*/
 
 @media (max-width:480px)  {
 
@@ -118,7 +128,7 @@ footer{
     
 }
 
-/*TABLET
+/*TABLET*/
 @media (min-width:481){
     .ulIndex{
         display:flex;
@@ -137,7 +147,7 @@ footer{
 
 }
 
-/*RESPONSIVE - página PRODUCTOS
+/*RESPONSIVE - página PRODUCTOS*/
 
 .productos{
     display: flex;
@@ -150,7 +160,7 @@ h1{
     text-align: center;
 }
 
-/*SMARTPHONE PRODUCTOS
+/*SMARTPHONE PRODUCTOS*/
 @media (max-width:480px){
     .productos{
 
@@ -167,7 +177,7 @@ h1{
 
 /* BOX MODELING*/
 
-    /*body{
+    body{
         
         background-color: rgb(218, 215, 205);
     }
@@ -235,9 +245,9 @@ h1{
         margin-top: 20px;
         margin-left: 100px;
         margin-bottom: 20px;
-        border: 10px solid rgb(163, 177, 138);
+        
     }
-    footer{
+    .footerIndex{
         padding: 40px;
         margin-top: 40px;
         margin-bottom: 0px;
@@ -279,4 +289,4 @@ h1{
         font-size: small;
         font-weight: bold;
         font-family:'Poppins', sans-serif;
-    } */
+    } 
